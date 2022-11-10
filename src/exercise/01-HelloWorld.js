@@ -13,14 +13,15 @@ function HelloWorld(props) {
          * Use the React.createElement function to display a div
          * and Hello World text inside the div
          */
-      
+         React.createElement('div',  null, 'Hello Rajesh') 
          /**
           * <div id="myApp" class="bg-dark" title="My App">Hello World</div>
           * VirtualDOM -> Represent UI Kept in memory { type: "div", props: {id: "myApp", className:"bg-dark", title: "My App"}, children: ['Hello World']  }
           */// <div id="myApp" class="bg-dark" title="My App">Hello World</div>
 
         //   React.createElemenet('div',null, 'Hello World')
-        React.createElement('div', Null, 'Hello Rajesh');
+        // React.createElement('div', Null, 'Hello Rajesh');
+        
     );
 }
 
